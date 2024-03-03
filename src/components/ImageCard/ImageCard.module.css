@@ -3,6 +3,7 @@
   height: 300px;
   overflow: hidden;
   transition: transform 0.3s;
+  border-radius: 4px;
 }
 
 .imageItem:hover {
