@@ -1,0 +1,17 @@
+.imageItem {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.imageItem:hover {
+  transform: scale(1.05);
+}
+
+.imageItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
